@@ -1,0 +1,588 @@
+=== TRAJECTORY AND PATH PATTERN ANALYSIS RESULTS ===
+Analysis Date: 2025-07-01 12:42:45
+
+=== PATH PATTERN STATISTICS ===
+Total path patterns found: 10
+
+BOTTOM to TOP: 13 objects
+Example objects:
+  - Object 9 (Pedestrian)
+  - Object 11 (Biker)
+  - Object 46 (Pedestrian)
+  - Object 52 (Pedestrian)
+  - Object 53 (Pedestrian)
+  - Object 56 (Pedestrian)
+  - Object 0 (Pedestrian)
+  - Object 8 (Pedestrian)
+  - Object 23 (Biker)
+  - Object 1 (Biker)
+  - Object 55 (Pedestrian)
+  - Object 57 (Pedestrian)
+  - Object 59 (Pedestrian)
+
+LEFT to RIGHT: 12 objects
+Example objects:
+  - Object 2 (Biker)
+  - Object 3 (Biker)
+  - Object 10 (Biker)
+  - Object 12 (Biker)
+  - Object 25 (Biker)
+  - Object 34 (Biker)
+  - Object 35 (Biker)
+  - Object 17 (Pedestrian)
+  - Object 21 (Biker)
+  - Object 22 (Pedestrian)
+  - Object 54 (Pedestrian)
+  - Object 24 (Biker)
+
+BOTTOM to LEFT: 9 objects
+Example objects:
+  - Object 6 (Pedestrian)
+  - Object 13 (Pedestrian)
+  - Object 14 (Pedestrian)
+  - Object 30 (Biker)
+  - Object 37 (Biker)
+  - Object 48 (Pedestrian)
+  - Object 51 (Pedestrian)
+  - Object 29 (Pedestrian)
+  - Object 16 (Biker)
+
+RIGHT to LEFT: 7 objects
+Example objects:
+  - Object 27 (Biker)
+  - Object 28 (Biker)
+  - Object 36 (Biker)
+  - Object 47 (Biker)
+  - Object 38 (Pedestrian)
+  - Object 39 (Pedestrian)
+  - Object 58 (Pedestrian)
+
+LEFT to BOTTOM: 6 objects
+Example objects:
+  - Object 26 (Biker)
+  - Object 40 (Biker)
+  - Object 41 (Biker)
+  - Object 43 (Biker)
+  - Object 44 (Biker)
+  - Object 60 (Biker)
+
+BOTTOM to RIGHT: 5 objects
+Example objects:
+  - Object 7 (Biker)
+  - Object 31 (Biker)
+  - Object 32 (Biker)
+  - Object 33 (Pedestrian)
+  - Object 42 (Biker)
+
+TOP to BOTTOM: 3 objects
+Example objects:
+  - Object 45 (Biker)
+  - Object 49 (Biker)
+  - Object 50 (Pedestrian)
+
+CENTER to CENTER: 3 objects
+Example objects:
+  - Object 15 (Pedestrian)
+  - Object 19 (Pedestrian)
+  - Object 20 (Pedestrian)
+
+TOP to LEFT: 2 objects
+Example objects:
+  - Object 4 (Biker)
+  - Object 18 (Biker)
+
+LEFT to TOP: 1 objects
+Example objects:
+  - Object 5 (Biker)
+
+=== TRAJECTORY STATISTICS ===
+Total objects analyzed: 61
+
+Object 0 (Pedestrian):
+  Duration: 1518 frames
+  Total distance: 1696.77 pixels
+  Average speed: 1.12 pixels/frame
+  Start position: (840.0, 1436.0)
+  End position: (370.5, 348.5)
+  Direction of movement: -113.4°
+
+Object 1 (Biker):
+  Duration: 518 frames
+  Total distance: 399.27 pixels
+  Average speed: 0.77 pixels/frame
+  Start position: (773.0, 1913.5)
+  End position: (779.5, 1606.5)
+  Direction of movement: -88.8°
+
+Object 2 (Biker):
+  Duration: 532 frames
+  Total distance: 1421.12 pixels
+  Average speed: 2.67 pixels/frame
+  Start position: (32.5, 1097.5)
+  End position: (1403.0, 1089.0)
+  Direction of movement: -0.4°
+
+Object 3 (Biker):
+  Duration: 518 frames
+  Total distance: 1433.55 pixels
+  Average speed: 2.77 pixels/frame
+  Start position: (17.5, 1118.5)
+  End position: (1399.0, 1063.5)
+  Direction of movement: -2.3°
+
+Object 4 (Biker):
+  Duration: 1018 frames
+  Total distance: 1469.58 pixels
+  Average speed: 1.44 pixels/frame
+  Start position: (645.0, 46.0)
+  End position: (18.5, 891.0)
+  Direction of movement: 126.6°
+
+Object 5 (Biker):
+  Duration: 532 frames
+  Total distance: 801.10 pixels
+  Average speed: 1.51 pixels/frame
+  Start position: (36.5, 1800.0)
+  End position: (424.5, 1303.5)
+  Direction of movement: -52.0°
+
+Object 6 (Pedestrian):
+  Duration: 1518 frames
+  Total distance: 253.62 pixels
+  Average speed: 0.17 pixels/frame
+  Start position: (169.5, 1724.0)
+  End position: (171.5, 1554.0)
+  Direction of movement: -89.3°
+
+Object 7 (Biker):
+  Duration: 1018 frames
+  Total distance: 1480.00 pixels
+  Average speed: 1.45 pixels/frame
+  Start position: (741.5, 1949.0)
+  End position: (1401.0, 1072.0)
+  Direction of movement: -53.1°
+
+Object 8 (Pedestrian):
+  Duration: 1018 frames
+  Total distance: 1456.45 pixels
+  Average speed: 1.43 pixels/frame
+  Start position: (484.5, 1400.0)
+  End position: (578.0, 46.0)
+  Direction of movement: -86.0°
+
+Object 9 (Pedestrian):
+  Duration: 1518 frames
+  Total distance: 2097.76 pixels
+  Average speed: 1.38 pixels/frame
+  Start position: (410.5, 1974.5)
+  End position: (609.5, 50.0)
+  Direction of movement: -84.1°
+
+Object 10 (Biker):
+  Duration: 1018 frames
+  Total distance: 1487.92 pixels
+  Average speed: 1.46 pixels/frame
+  Start position: (51.5, 1051.0)
+  End position: (1398.0, 998.5)
+  Direction of movement: -2.2°
+
+Object 11 (Biker):
+  Duration: 1018 frames
+  Total distance: 1981.66 pixels
+  Average speed: 1.95 pixels/frame
+  Start position: (738.5, 1957.5)
+  End position: (717.5, 21.0)
+  Direction of movement: -90.6°
+
+Object 12 (Biker):
+  Duration: 518 frames
+  Total distance: 1420.57 pixels
+  Average speed: 2.74 pixels/frame
+  Start position: (14.5, 1028.0)
+  End position: (1326.0, 1104.0)
+  Direction of movement: 3.3°
+
+Object 13 (Pedestrian):
+  Duration: 1018 frames
+  Total distance: 905.71 pixels
+  Average speed: 0.89 pixels/frame
+  Start position: (17.0, 1290.5)
+  End position: (283.5, 1991.0)
+  Direction of movement: 69.2°
+
+Object 14 (Pedestrian):
+  Duration: 532 frames
+  Total distance: 13.92 pixels
+  Average speed: 0.03 pixels/frame
+  Start position: (49.5, 954.5)
+  End position: (38.5, 950.0)
+  Direction of movement: -157.8°
+
+Object 15 (Pedestrian):
+  Duration: 532 frames
+  Total distance: 0.00 pixels
+  Average speed: 0.00 pixels/frame
+  Start position: (411.5, 1004.5)
+  End position: (411.5, 1004.5)
+  Direction of movement: 0.0°
+
+Object 16 (Biker):
+  Duration: 532 frames
+  Total distance: 2182.19 pixels
+  Average speed: 4.10 pixels/frame
+  Start position: (149.5, 1103.5)
+  End position: (495.5, 1112.0)
+  Direction of movement: 1.4°
+
+Object 17 (Pedestrian):
+  Duration: 532 frames
+  Total distance: 922.42 pixels
+  Average speed: 1.73 pixels/frame
+  Start position: (488.5, 1049.0)
+  End position: (1383.5, 1124.5)
+  Direction of movement: 4.8°
+
+Object 18 (Biker):
+  Duration: 1018 frames
+  Total distance: 1421.62 pixels
+  Average speed: 1.40 pixels/frame
+  Start position: (605.5, 69.0)
+  End position: (17.5, 927.0)
+  Direction of movement: 124.4°
+
+Object 19 (Pedestrian):
+  Duration: 532 frames
+  Total distance: 0.00 pixels
+  Average speed: 0.00 pixels/frame
+  Start position: (632.5, 1238.5)
+  End position: (632.5, 1238.5)
+  Direction of movement: 0.0°
+
+Object 20 (Pedestrian):
+  Duration: 532 frames
+  Total distance: 1823.26 pixels
+  Average speed: 3.43 pixels/frame
+  Start position: (502.5, 1539.0)
+  End position: (557.5, 1316.0)
+  Direction of movement: -76.1°
+
+Object 21 (Biker):
+  Duration: 532 frames
+  Total distance: 418.56 pixels
+  Average speed: 0.79 pixels/frame
+  Start position: (987.5, 1097.0)
+  End position: (1381.5, 1034.0)
+  Direction of movement: -9.1°
+
+Object 22 (Pedestrian):
+  Duration: 532 frames
+  Total distance: 490.83 pixels
+  Average speed: 0.92 pixels/frame
+  Start position: (951.5, 883.0)
+  End position: (1386.0, 820.0)
+  Direction of movement: -8.3°
+
+Object 23 (Biker):
+  Duration: 532 frames
+  Total distance: 769.93 pixels
+  Average speed: 1.45 pixels/frame
+  Start position: (846.5, 1062.0)
+  End position: (765.0, 329.5)
+  Direction of movement: -96.3°
+
+Object 24 (Biker):
+  Duration: 532 frames
+  Total distance: 2795.49 pixels
+  Average speed: 5.25 pixels/frame
+  Start position: (1313.0, 923.0)
+  End position: (998.5, 916.5)
+  Direction of movement: -178.8°
+
+Object 25 (Biker):
+  Duration: 532 frames
+  Total distance: 2739.74 pixels
+  Average speed: 5.15 pixels/frame
+  Start position: (1383.0, 969.0)
+  End position: (1080.0, 973.5)
+  Direction of movement: 179.1°
+
+Object 26 (Biker):
+  Duration: 1018 frames
+  Total distance: 1429.98 pixels
+  Average speed: 1.40 pixels/frame
+  Start position: (32.0, 1108.0)
+  End position: (641.5, 1991.0)
+  Direction of movement: 55.4°
+
+Object 27 (Biker):
+  Duration: 532 frames
+  Total distance: 1267.01 pixels
+  Average speed: 2.38 pixels/frame
+  Start position: (1284.5, 895.5)
+  End position: (33.0, 870.5)
+  Direction of movement: -178.9°
+
+Object 28 (Biker):
+  Duration: 532 frames
+  Total distance: 1246.13 pixels
+  Average speed: 2.34 pixels/frame
+  Start position: (1261.0, 960.5)
+  End position: (34.0, 925.0)
+  Direction of movement: -178.3°
+
+Object 29 (Pedestrian):
+  Duration: 518 frames
+  Total distance: 1146.14 pixels
+  Average speed: 2.21 pixels/frame
+  Start position: (900.5, 617.5)
+  End position: (68.5, 90.0)
+  Direction of movement: -147.6°
+
+Object 30 (Biker):
+  Duration: 1518 frames
+  Total distance: 4422.70 pixels
+  Average speed: 2.91 pixels/frame
+  Start position: (741.5, 1957.5)
+  End position: (15.5, 921.0)
+  Direction of movement: -125.0°
+
+Object 31 (Biker):
+  Duration: 1018 frames
+  Total distance: 1364.68 pixels
+  Average speed: 1.34 pixels/frame
+  Start position: (713.0, 1857.0)
+  End position: (1397.0, 1021.5)
+  Direction of movement: -50.7°
+
+Object 32 (Biker):
+  Duration: 1018 frames
+  Total distance: 1127.40 pixels
+  Average speed: 1.11 pixels/frame
+  Start position: (768.0, 1678.0)
+  End position: (1398.0, 1086.5)
+  Direction of movement: -43.2°
+
+Object 33 (Pedestrian):
+  Duration: 1518 frames
+  Total distance: 1684.25 pixels
+  Average speed: 1.11 pixels/frame
+  Start position: (838.0, 1970.0)
+  End position: (1405.0, 776.0)
+  Direction of movement: -64.6°
+
+Object 34 (Biker):
+  Duration: 518 frames
+  Total distance: 1356.77 pixels
+  Average speed: 2.62 pixels/frame
+  Start position: (10.5, 1007.0)
+  End position: (1293.5, 1007.0)
+  Direction of movement: 0.0°
+
+Object 35 (Biker):
+  Duration: 518 frames
+  Total distance: 1450.45 pixels
+  Average speed: 2.80 pixels/frame
+  Start position: (33.5, 1009.0)
+  End position: (1403.0, 1026.0)
+  Direction of movement: 0.7°
+
+Object 36 (Biker):
+  Duration: 1018 frames
+  Total distance: 1405.83 pixels
+  Average speed: 1.38 pixels/frame
+  Start position: (1379.5, 920.5)
+  End position: (13.5, 887.0)
+  Direction of movement: -178.6°
+
+Object 37 (Biker):
+  Duration: 1018 frames
+  Total distance: 1763.57 pixels
+  Average speed: 1.73 pixels/frame
+  Start position: (716.5, 1892.0)
+  End position: (13.5, 880.5)
+  Direction of movement: -124.8°
+
+Object 38 (Pedestrian):
+  Duration: 518 frames
+  Total distance: 269.84 pixels
+  Average speed: 0.52 pixels/frame
+  Start position: (1228.5, 1250.5)
+  End position: (1061.5, 1272.0)
+  Direction of movement: 172.7°
+
+Object 39 (Pedestrian):
+  Duration: 518 frames
+  Total distance: 272.31 pixels
+  Average speed: 0.53 pixels/frame
+  Start position: (1254.0, 1207.0)
+  End position: (1028.0, 1253.0)
+  Direction of movement: 168.5°
+
+Object 40 (Biker):
+  Duration: 1032 frames
+  Total distance: 1446.70 pixels
+  Average speed: 1.40 pixels/frame
+  Start position: (27.0, 1045.0)
+  End position: (634.5, 1978.5)
+  Direction of movement: 56.9°
+
+Object 41 (Biker):
+  Duration: 1032 frames
+  Total distance: 1378.07 pixels
+  Average speed: 1.34 pixels/frame
+  Start position: (58.5, 1099.0)
+  End position: (640.0, 1976.5)
+  Direction of movement: 56.5°
+
+Object 42 (Biker):
+  Duration: 1032 frames
+  Total distance: 1463.64 pixels
+  Average speed: 1.42 pixels/frame
+  Start position: (750.5, 1974.5)
+  End position: (1394.0, 1118.5)
+  Direction of movement: -53.1°
+
+Object 43 (Biker):
+  Duration: 518 frames
+  Total distance: 1464.34 pixels
+  Average speed: 2.83 pixels/frame
+  Start position: (60.5, 1030.0)
+  End position: (628.5, 1966.0)
+  Direction of movement: 58.7°
+
+Object 44 (Biker):
+  Duration: 1032 frames
+  Total distance: 1413.81 pixels
+  Average speed: 1.37 pixels/frame
+  Start position: (61.5, 1087.0)
+  End position: (641.0, 1987.0)
+  Direction of movement: 57.2°
+
+Object 45 (Biker):
+  Duration: 1032 frames
+  Total distance: 1904.58 pixels
+  Average speed: 1.85 pixels/frame
+  Start position: (625.5, 117.5)
+  End position: (600.5, 1987.0)
+  Direction of movement: 90.8°
+
+Object 46 (Pedestrian):
+  Duration: 532 frames
+  Total distance: 320.42 pixels
+  Average speed: 0.60 pixels/frame
+  Start position: (774.0, 323.0)
+  End position: (740.5, 25.0)
+  Direction of movement: -96.4°
+
+Object 47 (Biker):
+  Duration: 1032 frames
+  Total distance: 1305.22 pixels
+  Average speed: 1.26 pixels/frame
+  Start position: (1305.5, 893.0)
+  End position: (8.5, 878.5)
+  Direction of movement: -179.4°
+
+Object 48 (Pedestrian):
+  Duration: 1018 frames
+  Total distance: 579.68 pixels
+  Average speed: 0.57 pixels/frame
+  Start position: (206.0, 1572.5)
+  End position: (14.5, 1164.5)
+  Direction of movement: -115.1°
+
+Object 49 (Biker):
+  Duration: 1032 frames
+  Total distance: 1974.92 pixels
+  Average speed: 1.91 pixels/frame
+  Start position: (623.5, 52.0)
+  End position: (597.5, 1987.0)
+  Direction of movement: 90.8°
+
+Object 50 (Pedestrian):
+  Duration: 1032 frames
+  Total distance: 911.39 pixels
+  Average speed: 0.88 pixels/frame
+  Start position: (519.0, 1150.0)
+  End position: (405.0, 1987.0)
+  Direction of movement: 97.8°
+
+Object 51 (Pedestrian):
+  Duration: 1032 frames
+  Total distance: 599.07 pixels
+  Average speed: 0.58 pixels/frame
+  Start position: (207.5, 1623.0)
+  End position: (88.0, 1179.5)
+  Direction of movement: -105.1°
+
+Object 52 (Pedestrian):
+  Duration: 518 frames
+  Total distance: 45.62 pixels
+  Average speed: 0.09 pixels/frame
+  Start position: (794.5, 1957.5)
+  End position: (783.0, 1982.5)
+  Direction of movement: 114.7°
+
+Object 53 (Pedestrian):
+  Duration: 518 frames
+  Total distance: 341.99 pixels
+  Average speed: 0.66 pixels/frame
+  Start position: (447.5, 1976.5)
+  End position: (462.5, 1671.0)
+  Direction of movement: -87.2°
+
+Object 54 (Pedestrian):
+  Duration: 518 frames
+  Total distance: 1728.31 pixels
+  Average speed: 3.34 pixels/frame
+  Start position: (390.0, 1370.5)
+  End position: (1216.5, 1210.5)
+  Direction of movement: -11.0°
+
+Object 55 (Pedestrian):
+  Duration: 1518 frames
+  Total distance: 1379.57 pixels
+  Average speed: 0.91 pixels/frame
+  Start position: (902.0, 1762.0)
+  End position: (505.5, 1316.5)
+  Direction of movement: -131.7°
+
+Object 56 (Pedestrian):
+  Duration: 1518 frames
+  Total distance: 2162.63 pixels
+  Average speed: 1.42 pixels/frame
+  Start position: (820.5, 1968.0)
+  End position: (922.5, 58.5)
+  Direction of movement: -86.9°
+
+Object 57 (Pedestrian):
+  Duration: 1032 frames
+  Total distance: 1456.60 pixels
+  Average speed: 1.41 pixels/frame
+  Start position: (417.5, 1911.5)
+  End position: (397.0, 622.0)
+  Direction of movement: -90.9°
+
+Object 58 (Pedestrian):
+  Duration: 518 frames
+  Total distance: 317.88 pixels
+  Average speed: 0.61 pixels/frame
+  Start position: (1276.0, 1207.0)
+  End position: (1016.5, 1209.0)
+  Direction of movement: 179.6°
+
+Object 59 (Pedestrian):
+  Duration: 1018 frames
+  Total distance: 1219.28 pixels
+  Average speed: 1.20 pixels/frame
+  Start position: (793.5, 1934.5)
+  End position: (812.5, 874.5)
+  Direction of movement: -89.0°
+
+Object 60 (Biker):
+  Duration: 1018 frames
+  Total distance: 1471.46 pixels
+  Average speed: 1.45 pixels/frame
+  Start position: (54.5, 1070.0)
+  End position: (669.5, 2003.5)
+  Direction of movement: 56.6°
+

@@ -49,7 +49,7 @@ MANIFEST
 *.ogv
 
 # Output directories
-output/
+# output/
 results/
 logs/
 checkpoints/

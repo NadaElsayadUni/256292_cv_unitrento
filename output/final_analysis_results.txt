@@ -1,0 +1,32 @@
+=== FINAL ANALYSIS RESULTS ===
+Analysis Date: 2025-07-01 21:07:45
+Video Path: Videos and Annotations/video0/video.mp4
+Reference Path: Videos and Annotations/video0/reference.jpeg
+Annotations Path: Videos and Annotations/video0/annotations.txt
+Video Resolution: 760x1080
+Original Resolution: 1415x2014
+Total Frames Processed: 1518
+Occlusion Tracking: Disabled
+Kalman Filtering: Enabled
+
+=== ACCURACY METRICS ===
+Total ground truth objects: 61
+Successfully tracked objects: 59
+Tracking success rate: 96.7%
+Average IoU: 0.248
+Average MSE: 10.033
+Very well matched objects: 51
+Average MSE (well matched): 1.865
+Average IoU (well matched): 0.280
+
+=== CONFIGURATION ===
+Background History: 500
+Background Var Threshold: 20
+Min Area: 600
+Max Area: 10000
+Max Disappeared: 150
+Max Distance: 100
+Kalman Process Noise: 0.1
+Kalman Measurement Noise: 0.005
+MSE Threshold: 15
+IoU Threshold: 0.1
