@@ -94,9 +94,9 @@ Thumbs.db
 # Uncomment the above lines if you don't want to include annotation files
 
 # Video and annotation data
-# Videos and Annotations/
+Videos and Annotations/
 
 # Documentation
-# *.pdf
-# *.docx
-# *.doc
+*.pdf
+*.docx
+*.doc
