@@ -1,72 +1,72 @@
 === TRAJECTORY ACCURACY ANALYSIS ===
 Debug: Found 61 ground truth trajectories
-Debug: Found 62 detected trajectories
+Debug: Found 64 detected trajectories
 
 
 === Final Accuracy Metrics ===
 Total ground truth objects: 61
 Successfully matched objects: 59
-Average IoU: 0.248
-Average MSE: 10.033
+Average IoU: 0.251
+Average MSE: 9.767
 Very Well matched objects: 51
-Average MSE well matched: 1.865
-Average IoU well matched: 0.280
-Ground truth ID 0 -> Detected ID 25: MSE = 1.074, IoU = 0.227
-Ground truth ID 1 -> Detected ID 59: MSE = 0.403, IoU = 0.316
-Ground truth ID 2 -> Detected ID 31: MSE = 0.555, IoU = 0.320
+Average MSE well matched: 1.862
+Average IoU well matched: 0.283
+Ground truth ID 0 -> Detected ID 26: MSE = 1.073, IoU = 0.228
+Ground truth ID 1 -> Detected ID 61: MSE = 0.403, IoU = 0.316
+Ground truth ID 2 -> Detected ID 32: MSE = 0.558, IoU = 0.319
 Ground truth ID 3 -> Detected ID 14: MSE = 0.945, IoU = 0.173
-Ground truth ID 4 -> Detected ID 35: MSE = 0.535, IoU = 0.261
-Ground truth ID 5 -> Detected ID 36: MSE = 0.151, IoU = 0.465
-Ground truth ID 6 -> Detected ID 57: MSE = 0.610, IoU = 0.210
-Ground truth ID 7 -> Detected ID 47: MSE = 0.415, IoU = 0.296
-Ground truth ID 8 -> Detected ID 44: MSE = 13.522, IoU = 0.108
-Ground truth ID 9 -> Detected ID 44: MSE = 11.253, IoU = 0.162
-Ground truth ID 10 -> Detected ID 43: MSE = 81.501, IoU = 0.152
-Ground truth ID 11 -> Detected ID 30: MSE = 0.410, IoU = 0.315
-Ground truth ID 12 -> Detected ID 13: MSE = 37.874, IoU = 0.108
-Ground truth ID 13 -> Detected ID 33: MSE = 0.918, IoU = 0.136
-Ground truth ID 14 -> Detected ID 18: MSE = 14.899, IoU = 0.057
-Ground truth ID 15 -> Detected ID 10: MSE = 14.309, IoU = 0.041
-Ground truth ID 16 -> Detected ID 3: MSE = 4.039, IoU = 0.179
-Ground truth ID 17 -> Detected ID 3: MSE = 0.540, IoU = 0.271
-Ground truth ID 18 -> Detected ID 44: MSE = 83.750, IoU = 0.072
-Ground truth ID 19 -> Detected ID 23: MSE = 22.370, IoU = 0.045
-Ground truth ID 20 -> Detected ID 10: MSE = 1.840, IoU = 0.235
+Ground truth ID 4 -> Detected ID 36: MSE = 0.426, IoU = 0.308
+Ground truth ID 5 -> Detected ID 37: MSE = 0.151, IoU = 0.465
+Ground truth ID 6 -> Detected ID 59: MSE = 0.610, IoU = 0.210
+Ground truth ID 7 -> Detected ID 49: MSE = 0.415, IoU = 0.296
+Ground truth ID 8 -> Detected ID 46: MSE = 13.509, IoU = 0.113
+Ground truth ID 9 -> Detected ID 46: MSE = 11.219, IoU = 0.171
+Ground truth ID 10 -> Detected ID 44: MSE = 62.030, IoU = 0.160
+Ground truth ID 11 -> Detected ID 31: MSE = 0.421, IoU = 0.312
+Ground truth ID 12 -> Detected ID 13: MSE = 40.262, IoU = 0.109
+Ground truth ID 13 -> Detected ID 34: MSE = 0.918, IoU = 0.136
+Ground truth ID 14 -> Detected ID 19: MSE = 14.899, IoU = 0.057
+Ground truth ID 15 -> Detected ID 9: MSE = 14.315, IoU = 0.041
+Ground truth ID 16 -> Detected ID 3: MSE = 4.073, IoU = 0.222
+Ground truth ID 17 -> Detected ID 3: MSE = 0.664, IoU = 0.267
+Ground truth ID 18 -> Detected ID 46: MSE = 85.243, IoU = 0.077
+Ground truth ID 19 -> Detected ID 24: MSE = 22.370, IoU = 0.045
+Ground truth ID 20 -> Detected ID 9: MSE = 1.776, IoU = 0.236
 Ground truth ID 21 -> Detected ID 4: MSE = 0.488, IoU = 0.275
-Ground truth ID 22 -> Detected ID 22: MSE = 0.190, IoU = 0.436
-Ground truth ID 23 -> Detected ID 8: MSE = 0.359, IoU = 0.392
-Ground truth ID 24 -> Detected ID 2: MSE = 0.966, IoU = 0.228
-Ground truth ID 25 -> Detected ID 2: MSE = 1.164, IoU = 0.138
-Ground truth ID 26 -> Detected ID 37: MSE = 0.347, IoU = 0.346
-Ground truth ID 27 -> Detected ID 15: MSE = 0.397, IoU = 0.348
-Ground truth ID 28 -> Detected ID 18: MSE = 0.261, IoU = 0.396
-Ground truth ID 29 -> Detected ID 48: MSE = 2.607, IoU = 0.153
-Ground truth ID 30 -> Detected ID 9: MSE = 0.276, IoU = 0.394
-Ground truth ID 31 -> Detected ID 41: MSE = 0.888, IoU = 0.153
-Ground truth ID 32 -> Detected ID 50: MSE = 0.436, IoU = 0.282
-Ground truth ID 33 -> Detected ID 38: MSE = 0.624, IoU = 0.230
-Ground truth ID 34 -> Detected ID 55: MSE = 0.285, IoU = 0.333
-Ground truth ID 35 -> Detected ID 49: MSE = 0.193, IoU = 0.450
-Ground truth ID 36 -> Detected ID 46: MSE = 0.479, IoU = 0.293
-Ground truth ID 37 -> Detected ID 40: MSE = 0.579, IoU = 0.271
-Ground truth ID 40 -> Detected ID 26: MSE = 271.381, IoU = 0.076
-Ground truth ID 41 -> Detected ID 23: MSE = 0.457, IoU = 0.298
-Ground truth ID 42 -> Detected ID 19: MSE = 0.376, IoU = 0.329
-Ground truth ID 43 -> Detected ID 53: MSE = 0.331, IoU = 0.352
-Ground truth ID 44 -> Detected ID 17: MSE = 0.169, IoU = 0.549
-Ground truth ID 45 -> Detected ID 24: MSE = 0.482, IoU = 0.281
-Ground truth ID 46 -> Detected ID 8: MSE = 1.342, IoU = 0.232
-Ground truth ID 47 -> Detected ID 21: MSE = 0.441, IoU = 0.314
+Ground truth ID 22 -> Detected ID 23: MSE = 0.190, IoU = 0.436
+Ground truth ID 23 -> Detected ID 11: MSE = 0.358, IoU = 0.395
+Ground truth ID 24 -> Detected ID 2: MSE = 0.969, IoU = 0.228
+Ground truth ID 25 -> Detected ID 2: MSE = 1.162, IoU = 0.140
+Ground truth ID 26 -> Detected ID 38: MSE = 0.346, IoU = 0.347
+Ground truth ID 27 -> Detected ID 16: MSE = 0.320, IoU = 0.357
+Ground truth ID 28 -> Detected ID 19: MSE = 0.261, IoU = 0.396
+Ground truth ID 29 -> Detected ID 50: MSE = 2.674, IoU = 0.152
+Ground truth ID 30 -> Detected ID 8: MSE = 0.287, IoU = 0.391
+Ground truth ID 31 -> Detected ID 43: MSE = 0.889, IoU = 0.153
+Ground truth ID 32 -> Detected ID 52: MSE = 0.436, IoU = 0.283
+Ground truth ID 33 -> Detected ID 40: MSE = 0.624, IoU = 0.230
+Ground truth ID 34 -> Detected ID 57: MSE = 0.285, IoU = 0.334
+Ground truth ID 35 -> Detected ID 51: MSE = 0.198, IoU = 0.446
+Ground truth ID 36 -> Detected ID 48: MSE = 0.471, IoU = 0.295
+Ground truth ID 37 -> Detected ID 42: MSE = 0.579, IoU = 0.271
+Ground truth ID 40 -> Detected ID 27: MSE = 271.381, IoU = 0.076
+Ground truth ID 41 -> Detected ID 24: MSE = 0.457, IoU = 0.298
+Ground truth ID 42 -> Detected ID 20: MSE = 0.376, IoU = 0.329
+Ground truth ID 43 -> Detected ID 55: MSE = 0.331, IoU = 0.352
+Ground truth ID 44 -> Detected ID 18: MSE = 0.169, IoU = 0.549
+Ground truth ID 45 -> Detected ID 25: MSE = 0.482, IoU = 0.281
+Ground truth ID 46 -> Detected ID 11: MSE = 1.342, IoU = 0.232
+Ground truth ID 47 -> Detected ID 22: MSE = 0.441, IoU = 0.314
 Ground truth ID 48 -> Detected ID 14: MSE = 0.972, IoU = 0.087
-Ground truth ID 49 -> Detected ID 29: MSE = 0.492, IoU = 0.279
-Ground truth ID 50 -> Detected ID 6: MSE = 1.310, IoU = 0.156
-Ground truth ID 51 -> Detected ID 16: MSE = 0.370, IoU = 0.306
-Ground truth ID 52 -> Detected ID 61: MSE = 0.435, IoU = 0.276
-Ground truth ID 53 -> Detected ID 56: MSE = 0.628, IoU = 0.183
-Ground truth ID 54 -> Detected ID 39: MSE = 0.632, IoU = 0.242
-Ground truth ID 55 -> Detected ID 51: MSE = 0.558, IoU = 0.211
-Ground truth ID 56 -> Detected ID 58: MSE = 0.309, IoU = 0.350
-Ground truth ID 57 -> Detected ID 26: MSE = 5.679, IoU = 0.123
-Ground truth ID 58 -> Detected ID 60: MSE = 0.516, IoU = 0.249
-Ground truth ID 59 -> Detected ID 34: MSE = 2.256, IoU = 0.151
-Ground truth ID 60 -> Detected ID 45: MSE = 0.376, IoU = 0.328
+Ground truth ID 49 -> Detected ID 30: MSE = 0.491, IoU = 0.279
+Ground truth ID 50 -> Detected ID 6: MSE = 1.320, IoU = 0.156
+Ground truth ID 51 -> Detected ID 17: MSE = 0.370, IoU = 0.306
+Ground truth ID 52 -> Detected ID 62: MSE = 0.435, IoU = 0.276
+Ground truth ID 53 -> Detected ID 58: MSE = 0.628, IoU = 0.183
+Ground truth ID 54 -> Detected ID 41: MSE = 0.634, IoU = 0.243
+Ground truth ID 55 -> Detected ID 53: MSE = 0.558, IoU = 0.211
+Ground truth ID 56 -> Detected ID 60: MSE = 0.305, IoU = 0.352
+Ground truth ID 57 -> Detected ID 27: MSE = 5.679, IoU = 0.123
+Ground truth ID 58 -> Detected ID 63: MSE = 0.435, IoU = 0.306
+Ground truth ID 59 -> Detected ID 35: MSE = 2.256, IoU = 0.151
+Ground truth ID 60 -> Detected ID 47: MSE = 0.376, IoU = 0.328

@@ -143,7 +143,8 @@ class HumanMotionAnalyzer:
         self.frame_count += 1
 
         # Detect moving objects
-        detections, fg_mask = self.detector.detect_moving_objects(frame)
+        # detections, fg_mask = self.detector.detect_moving_objects(frame)
+        detections, fg_mask, non_shadow_mask = self.detector.detect_moving_objects_with_shadow_suppression(frame)
 
         # Ensure tracker is initialized
         if self.tracker is None:
@@ -177,6 +178,7 @@ class HumanMotionAnalyzer:
             'detections': detections,
             'tracked_objects': tracked_objects,
             'fg_mask': fg_mask,
+            'non_shadow_mask': non_shadow_mask,
             'frame_count': self.frame_count
         }
 
@@ -205,10 +207,11 @@ class HumanMotionAnalyzer:
             raise RuntimeError("Tracker not initialized. Call load_video() first.")
 
         # Draw trajectories using visualizer
-        self.visualizer.draw_trajectories(frame, self.tracker.trajectories, self.frame_width, self.frame_height)
+        print(f"Drawing results")
+        # self.visualizer.draw_trajectories(frame, self.tracker.trajectories, self.frame_width, self.frame_height)
 
         # Draw reconstructed trajectories (from ground truth data)
-        self.visualizer.draw_reconstructed_trajectories(frame, self.tracker.full_trajectories, self.frame_width, self.frame_height)
+        # self.visualizer.draw_reconstructed_trajectories(frame, self.tracker.full_trajectories, self.frame_width, self.frame_height)
 
         # Draw detections and IDs using visualizer
         self.visualizer.draw_objects(
@@ -249,22 +252,23 @@ class HumanMotionAnalyzer:
         if last_frame is not None:
             cv2.imwrite(LAST_FRAME_IMAGE, last_frame)
 
-            # Draw and save trajectory visualizations using visualizer
-            raw_trajectory_image = self.visualizer.draw_complete_trajectories(
-                last_frame, self.tracker.full_trajectories, use_kalman=False
-            )
-            if raw_trajectory_image is not None:
-                cv2.imwrite(TRAJECTORIES_RAW_IMAGE, raw_trajectory_image)
-                print(f"Raw trajectories image saved as {TRAJECTORIES_RAW_IMAGE}")
+            # Draw Kalman-filtered trajectories
+            if self.kalman_manager.use_kalman:
+                kalman_centers = self.kalman_manager.kalman_centers
+                kalman_trajectory_image = self.visualizer.draw_complete_trajectories(
+                    last_frame, self.tracker.full_trajectories, use_kalman=True, kalman_centers=kalman_centers
+                )
+                cv2.imwrite(TRAJECTORIES_KALMAN_IMAGE, kalman_trajectory_image)
+                print(f"Kalman-filtered trajectories saved as {TRAJECTORIES_KALMAN_IMAGE}")
+            else:
+                # Draw and save trajectory visualizations using visualizer
+                raw_trajectory_image = self.visualizer.draw_complete_trajectories(
+                    last_frame, self.tracker.full_trajectories, use_kalman=False
+                )
+                if raw_trajectory_image is not None:
+                    cv2.imwrite(TRAJECTORIES_RAW_IMAGE, raw_trajectory_image)
+                    print(f"Raw trajectories image saved as {TRAJECTORIES_RAW_IMAGE}")
 
-                # Draw Kalman-filtered trajectories
-                if self.kalman_manager.use_kalman:
-                    kalman_centers = self.kalman_manager.kalman_centers
-                    kalman_trajectory_image = self.visualizer.draw_complete_trajectories(
-                        last_frame, self.tracker.full_trajectories, use_kalman=True, kalman_centers=kalman_centers
-                    )
-                    cv2.imwrite(TRAJECTORIES_KALMAN_IMAGE, kalman_trajectory_image)
-                    print(f"Kalman-filtered trajectories saved as {TRAJECTORIES_KALMAN_IMAGE}")
 
             # Save individual trajectory images
             # self.visualizer.save_individual_trajectories(last_frame, self.tracker.full_trajectories, INDIVIDUAL_TRAJECTORIES_DIR)
@@ -323,6 +327,7 @@ class HumanMotionAnalyzer:
             if show_visualization:
                 cv2.imshow('Analysis Results', frame)
                 cv2.imshow('Foreground Mask', results['fg_mask'])
+                cv2.imshow('Shadow Mask (Non-Shadow Areas)', results['non_shadow_mask'])
 
                 # Show occlusion mask overlay only if occlusion tracking is enabled
                 if self.occlusion_handler.occlusion_mask is not None:

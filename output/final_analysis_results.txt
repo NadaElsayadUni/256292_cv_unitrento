@@ -1,5 +1,5 @@
 === FINAL ANALYSIS RESULTS ===
-Analysis Date: 2025-07-01 21:07:45
+Analysis Date: 2025-07-24 18:45:12
 Video Path: Videos and Annotations/video0/video.mp4
 Reference Path: Videos and Annotations/video0/reference.jpeg
 Annotations Path: Videos and Annotations/video0/annotations.txt
@@ -13,11 +13,11 @@ Kalman Filtering: Enabled
 Total ground truth objects: 61
 Successfully tracked objects: 59
 Tracking success rate: 96.7%
-Average IoU: 0.248
-Average MSE: 10.033
+Average IoU: 0.251
+Average MSE: 9.767
 Very well matched objects: 51
-Average MSE (well matched): 1.865
-Average IoU (well matched): 0.280
+Average MSE (well matched): 1.862
+Average IoU (well matched): 0.283
 
 === CONFIGURATION ===
 Background History: 500
