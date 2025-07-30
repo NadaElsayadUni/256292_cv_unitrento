@@ -194,7 +194,7 @@ class Visualizer:
     def draw_objects(self, frame, tracked_objects, frame_width, frame_height,
                     occlusion_handler=None, kalman_manager=None):
         """Draw detections and IDs on frame"""
-        print(f"Drawing objects")
+        # print(f"Drawing objects")
         for object_id, obj in tracked_objects.items():
             x, y, w, h = obj['bbox']
             center_x, center_y = obj['center']

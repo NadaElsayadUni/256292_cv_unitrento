@@ -207,7 +207,7 @@ class HumanMotionAnalyzer:
             raise RuntimeError("Tracker not initialized. Call load_video() first.")
 
         # Draw trajectories using visualizer
-        print(f"Drawing results")
+        # print(f"Drawing results")
         # self.visualizer.draw_trajectories(frame, self.tracker.trajectories, self.frame_width, self.frame_height)
 
         # Draw reconstructed trajectories (from ground truth data)
